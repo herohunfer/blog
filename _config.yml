@@ -1,0 +1,8 @@
+markdown: rdiscount
+permalink: /:year/:month/:title/
+url: http://herohunfer.com/cn
+author: herohunfer
+pygments: true
+production_url : http://herohunfer.com/cn
+
+
