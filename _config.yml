@@ -1,8 +1,0 @@
-markdown: rdiscount
-permalink: /:year/:month/:title/
-url: http://herohunfer.com/blog
-author: herohunfer
-pygments: true
-production_url : http://herohunfer.com/blog
-
-
