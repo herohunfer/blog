@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "install jekyll+github pages"
-categories: jekyll
-- 
+category: jekyll
 tags: [jekyll, github]
-- 
 ---
 
 Install Ruby 2.0.0
