@@ -43,13 +43,13 @@
         <h1>{{ page.title }}</h1>
         </header>
         <nav>
-        <span><a title="home page" class="" href="/">Home</a></span>
-        <span><a title="about" class="" href="/about/">About</a></span>
-        <span><a title="guestbook" class="" href="/guestbook/">Guestbook</a></span>
-        <span><a title="categories" class="" href="/categories/">Categories</a></span>
-        <span><a title="tags" class="" href="/tags/">Tags</a></span>
-        <span><a title="links" class="" href="/links/">Links</a></span>
-        <span><a title="subscribe by RSS" class="" href="/feed/">Subscribe</a></span>
+        <span><a title="home page" class="" href="{{site.url}}/">Home</a></span>
+        <span><a title="about" class="" href="{{site.url}}/about/">About</a></span>
+        <span><a title="guestbook" class="" href="{{site.url}}/guestbook/">Guestbook</a></span>
+        <span><a title="categories" class="" href="{{site.url}}/categories/">Categories</a></span>
+        <span><a title="tags" class="" href="{{site.url}}/tags/">Tags</a></span>
+        <span><a title="links" class="" href="{{site.url}}/links/">Links</a></span>
+        <span><a title="subscribe by RSS" class="" href="{{site.url}}/feed/">Subscribe</a></span>
         </nav>
         <article class="content">
         {{ content }}
@@ -61,7 +61,7 @@
     </footer>
 
     </div>
-
+    <!--
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-34960818-1']);
@@ -72,7 +72,7 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
-
+    -->
     <!-- Baidu Button BEGIN -->
 		<script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=4&amp;pos=right&amp;uid=541841" ></script>
 		<script type="text/javascript" id="bdshell_js"></script>
