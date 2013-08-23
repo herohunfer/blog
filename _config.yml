@@ -4,7 +4,5 @@ url: http://herohunfer.com/blog
 author: herohunfer
 pygments: true
 safe: true
-paginate: 16
-auto: true
 production_url : http://herohunfer.com/blog
 

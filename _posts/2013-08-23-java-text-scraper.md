@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Java Text Scraper"
-category: [java]
+category: java
 tags: [java, jsoup]
 ---
 Run java program with class path:
