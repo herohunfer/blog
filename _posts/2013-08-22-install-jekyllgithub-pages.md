@@ -5,8 +5,7 @@ category: jekyll
 tags: [jekyll, github]
 ---
 #Install Ruby, Gems, RVM
-github-pages need Ruby 1.9.3, so update ruby, gems with RVM.   
-[a good guide](http://architects.dzone.com/articles/upgrading-ruby-20-mountain)
+github-pages need Ruby 1.9.3, so update ruby, gems with RVM.[a good guide](http://architects.dzone.com/articles/upgrading-ruby-20-mountain)
     rvm get update
     gem update --system
     gem update
@@ -15,7 +14,6 @@ github-pages need Ruby 1.9.3, so update ruby, gems with RVM.
     brew install libyaml
     rvm pkg install openssl
     rvm install 1.9.3
-
 make sure run the following command to enable ruby 1.9.3:
     rvm use 1.9.3 --default
 
