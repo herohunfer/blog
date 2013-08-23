@@ -6,6 +6,7 @@ tags: [jekyll, github]
 ---
 #Install Ruby, Gems, RVM
 github-pages need Ruby 1.9.3, so update ruby, gems with RVM.
+
 [a good guide](http://architects.dzone.com/articles/upgrading-ruby-20-mountain)
     rvm get update
     gem update --system
@@ -33,5 +34,7 @@ if no style shown on github pages, add media/ folder into github.com project. Th
 
 # Reference
 a great jekyll installation guide (a lot of detail involved) [How I build my blog in one day](http://erjjones.github.io/blog/How-I-built-my-blog-in-one-day/)
+
 [use jekyll to write blogs](http://webfrogs.me/2012/12/20/use-jekyll/)
+
 [a beautiful blog](www.mingxinglai.com)
