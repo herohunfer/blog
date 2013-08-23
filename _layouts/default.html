@@ -4,7 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="{{ site.author }}" />
     <title>{{ page.title }} | {{ site.author }}</title>
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="{{site.url}}/favicon.ico">
     <link href="{{site.url}}/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
     <link rel="stylesheet" href="/media/css/style.css">
     <link rel="stylesheet" href="/media/css/highlight.css">
@@ -44,7 +44,6 @@
         <nav>
         <span><a title="home page" class="" href="{{site.url}}/">Home</a></span>
         <span><a title="about" class="" href="{{site.url}}/about/">About</a></span>
-        <span><a title="guestbook" class="" href="{{site.url}}/guestbook/">Guestbook</a></span>
         <span><a title="categories" class="" href="{{site.url}}/categories/">Categories</a></span>
         <span><a title="tags" class="" href="{{site.url}}/tags/">Tags</a></span>
         <span><a title="links" class="" href="{{site.url}}/links/">Links</a></span>
@@ -56,7 +55,7 @@
       </div>
 
     <footer>
-        <p><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> & <a href="http://pages.github.com">GitHub</a> | Copyright 2012 - {{site.time | date:"%Y"}} by <a href="/about/">webfrogs</a> | <span class="label label-info" id="timeSpan"></span></small></p>
+        <p><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> & <a href="http://pages.github.com">GitHub</a> | Copyright 2012 - {{site.time | date:"%Y"}} by <a href="{{site.url}}/about/">herohunfer</a> | <span class="label label-info" id="timeSpan"></span></small></p>
     </footer>
 
     </div>
@@ -72,7 +71,7 @@
       })();
     </script>
     -->
-    <!-- Baidu Button BEGIN -->
+    <!-- Baidu Button BEGIN
     <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=4&amp;pos=right&amp;uid=541841" ></script>
 		<script type="text/javascript" id="bdshell_js"></script>
@@ -80,6 +79,6 @@
 		var bds_config={"bdTop":170};
 		document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
 		</script>
-		<!-- Baidu Button END -->
+		 Baidu Button END -->
   </body>
 </html>
