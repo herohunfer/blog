@@ -6,55 +6,54 @@ tags: [markdown]
 ---
 [a good guide](http://daringfireball.net/projects/markdown/syntax#p)
 
-##Automatic Escaping for special characters
+1.  Automatic Escaping for special characters
 
-##paragraph: empty lines separated
+2.  paragraph: empty lines separated
 
-##headers 
+3.  headers 
 
-    This is an H1
-    =============
+        This is an H1
+        =============
     
-    This is an H2
-    -------------
+        This is an H2
+        -------------
 
-##headers with level
+4.  headers with level
 
-    # H1
-    ## H2
-    ###### H6
+        # H1
+        ## H2
+        ###### H6
 
-##List items may consist of multiple paragraphs, and each paragraph must
+5.  List items may consist of multiple paragraphs, and each paragraph must
     idented by either 4 spaces or one tab
 
-##Code block. 4 spaces or 1 tab.
+6.  Code block. 4 spaces or 1 tab.
 
-##Horizontal Rules
+7.  Horizontal Rules
 
-    * * *
-    ***
-    ---
-    -------------
+        * * *
+        ***
+        ---
+        -------------
 
-##Links
+8.  Links
 
-    This is [an example](http://example.com/ "Title") inline link.
+        This is [an example](http://example.com/ "Title") inline link.
 
-##Images
+9.  Images
 
-    ![Alt text](/path/to/img.jpg "optional title")
+        ![Alt text](/path/to/img.jpg "optional title")
+10. Escape
 
-##Escape
-
-    \   backslash
-    `   backtick
-    *   asterisk
-    _   underscore
-    {}  curly braces
-    []  square brackets
-    ()  parentheses
-    #   hash mark
-    +   plus sign
-    -   minus sign (hyphen)
-    .   dot
-    !   exclamation mark
+        \   backslash
+        `   backtick
+        *   asterisk
+        _   underscore
+        {}  curly braces
+        []  square brackets
+        ()  parentheses
+        #   hash mark
+        +   plus sign
+        -   minus sign (hyphen)
+        .   dot
+        !   exclamation mark
