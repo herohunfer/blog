@@ -5,8 +5,8 @@ category:
 tags:
 ---
 ##Handle Millions of User
-1.   avoid using arrays, use arraylist instead (dynamic data structure)
-2.   multiple machines
+1.    avoid using arrays, use arraylist instead (dynamic data structure)
+2.    multiple machines
         public class server {
           HashMap<Integer, Machine> machines = new HashMap<Integer, Machine>();
           HashMap<Integer, Integer> personToMachineMap = new HashMap<Integer, Integer>();
@@ -39,7 +39,7 @@ tags:
           public int getID() { return personID; }
           public void addFriend(int id) {friends.add(id);}
         }
-        
+         
         public class Machine {
           public HashMap<Integer, Person> persons = new HashMap<Integer, Person>();
           public int machineID;
