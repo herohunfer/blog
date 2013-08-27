@@ -5,8 +5,8 @@ category:
 tags:
 ---
 ##Handle Millions of User
-1.    avoid using arrays, use arraylist instead (dynamic data structure)
-2.    multiple machines
+1. avoid using arrays, use arraylist instead (dynamic data structure)
+2. multiple machines
         public class server {
           HashMap<Integer, Machine> machines = new HashMap<Integer, Machine>();
           HashMap<Integer, Integer> personToMachineMap = new HashMap<Integer, Integer>();
@@ -48,3 +48,14 @@ tags:
             return persons.get(personID);
           }
         }
+
+##Bit Vector
+  // create a Bit Vector to mark the existing number e.g. bitfield[n] = 1
+  byte[] bitfield = new byte [0xFFFFFFF/8];
+  // mark existed
+  bitfiled[n/8] |= 1 << (n%8);
+  // check if existed; if not then output
+  if ((bitfield[i] & (1 << j)) == 0) {
+    System.out.println(i*8 + j);
+    return;
+  }
