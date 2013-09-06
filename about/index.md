@@ -3,12 +3,12 @@ title: About me
 layout: page
 comments: no
 ---
-Love DOTA, Love freedom, Love jogging
-also love watching Naruto, I am not B-god
-Love to hang out eat and drink, love all spots
-I am not idol or fan, I am herohunfer
-I represent myself, I am the same as you
-I am a programmer
+Love DOTA, Love freedom, Love jogging    
+also love watching Naruto, I am not B-god    
+Love to hang out eat and drink, love all spots    
+I am not idol or fan, I am herohunfer    
+I represent myself, I am the same as you    
+I am a programmer     
 
 ----
 
