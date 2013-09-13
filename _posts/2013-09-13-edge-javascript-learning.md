@@ -2,15 +2,15 @@
 layout: post
 title: "Edge javascript learning"
 category: javascript
-tags: [javascript]
+tags: [javascript, phantomJS]
 ---
-##output to a local file
+###output to a local file
     var fs = require('fs');
     
     page.open("http://www.google.com", function(status)) {
       fs.write('input.html', page.content, 'w');
     }
-##phantomJS
+###phantomJS
 phantomJS is a good tool to screen capture. It will allow javascript to be fully rendered and then capture the HTML page, which means what you get is exactly what you see.
     var system = require('system');
     var page = require('webpage').create();
@@ -31,4 +31,4 @@ phantomJS is a good tool to screen capture. It will allow javascript to be fully
     } 
 render only supports PNG, GIF, JPEG and PDF format.
 
-check (phantom API){https://github.com/ariya/phantomjs/wiki/API-Reference-WebPage}
+check [phantom API](https://github.com/ariya/phantomjs/wiki/API-Reference-WebPage)
