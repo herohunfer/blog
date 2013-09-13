@@ -4,6 +4,30 @@ title: "regular expression"
 category:
 tags:
 ---
+java requires double slash to escape character. \\s \\d others may only need one.   
+###java regex
+    import java.util.regex.Matcher;
+    import java.util.regex.Pattern;
+    Pattern pattern = Pattern.compile("\\d");
+    Matcher matcher = pattern.matcher(s);
+###understand ? lazy operator
+.*? will match only the first one. regEX are greedy.
+(?: non-capture sequence)  
+###address match
+5995 Mowry Ave Newark, CA 
+1602 S. El Camino Real, San Mateo CA
+wrong with: 9966 Bombay Garden 3701 El Camino Real Santa Clara, CA 
+
+(\\d){3}\\d?\\s[\\w\\d\\.\\,\\s]+(?=AL|AK|AS|AZ|AR|CA|CO|CT|DE|DC|FM|FL|GA|GU|HI|ID|IL|IN|IA|KS|KY|LA|ME|MH|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|MP|OH|OK|OR|PW|PA|PR|RI|SC|SD|TN|TX|UT|VT|VI|VA|WA|WV|WI|WY)[A-Z]{2}[\\,\\s]+(?:-\\d{5}\\d{4})?)
+
+### phone number
+\\(?(\\d){3}[\\])\\.\\-]?\\s?(\\d){3}[\\.\\-](\\d){4}
+(123)456-7890
+(123) 456.7890
+123.456.7890
+
+###cheat sheet
+[CheatSheet](http://regexlib.com/CheatSheet.aspx)
 [abc]   
 [^abc]    
 [a-zA-Z]    
